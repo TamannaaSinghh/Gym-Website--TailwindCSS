@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GYM Website Layout</title>
+
+    <!-- npx tailwindcss -i ./input.css -o ./style.css --watch -->
+
+</head>
+
+<body class="bg-slate-950">
+
+    <!-- //Navbar -->
+
+    <nav class="w-full h-14 bg-indigo-700 flex justify-between px-4 items-center md:px-4 m-0 mt-0">
+        <div class="text-2xl text-indigo-950 font-bold justify-items-start ">
+            QuantumFit
+        </div>
+        <ul class="md:flex font-semibold hidden underline">
+            <li class="mx-[10px] cursor-pointer">Home</li>
+            <li class="mx-[10px] cursor-pointer">About</li>
+            <li class="mx-[10px] cursor-pointer">Contact</li>
+        </ul>
+        <div class="hidden md:block px-2 py-2 bg-indigo-700 text-white rounded font-bold cursor-pointer">Login/SignUP
+        </div>
+        <div class="md:hidden text-black">
+            <a class="text-4xl" href="#">&#8801;</a>
+        </div>
+    </nav>
+
+    <!-- navbar ends here -->
+
+    <!-- image starts here -->
+    <header class="w-full h-auto">
+        <img class="w-full hidden md:block"
+            src="https://imgs.search.brave.com/h2tEsEZkRLKVLaAk56CjnwkrocAsvyWpuQ8ILl797Rk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM5/MTQxMDI0OS9waG90/by9zcG9ydHMtYW5k/LWd5bS1hY3Rpdml0/aWVzLndlYnA_Yj0x/JnM9MTcwNjY3YSZ3/PTAmaz0yMCZjPUFX/OU5XSzE4MWJWc2pu/RUs5c2syNVQzUG1r/RURBY2JDZGQxQmhK/UnZMN0k9"
+            alt="1st">
+        <img class="w-full md:hidden "
+            src="https://images.pexels.com/photos/17211446/pexels-photo-17211446/free-photo-of-an-empty-gym.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="2nd">
+    </header>
+
+    <!-- image ends here -->
+
+    <!-- Our Members section -->
+
+    <div class="h-auto w-100% flex flex-wrap flex-col items-center text-center p-10">
+
+        <div class="w-full h-auto flex flex-wrap flex-col items-center text-center">
+            <p class="text-indigo-800 font-bold text-2xl md:text-4xl text-center">"The only bad workout is the one that
+                didn't happen."</p>
+            <div class="w-36 md:w-[300px]  h-1 border-b-4 border-yellow-600 mt-2 rounded-2xl md:mt-4 mb-12"></div>
+        </div>
+
+        <div class="w-full flex flex-wrap justify-evenly">
+            <div class="w-46 flex flex-col items-center mb-12">
+                <img class="h-[100px] w-[150px] rounded-lg"
+                    src="https://images.pexels.com/photos/8436581/pexels-photo-8436581.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="">
+                <p class="text-white font-bold text-xl md:text-2xl w-[240px] ">Comprehensive Facilities</p>
+
+                <p class="text-gray-500 font-bold text-lg md:text-xl w-[300px]">State-of-the-art equipment, group
+                    fitness classes, personal training, nutrition counseling, and wellness programs.</p>
+            </div>
+
+            <div class="w-46 flex flex-col items-center mb-12">
+                <img class="h-[100px] w-[150px] rounded-lg"
+                    src="https://images.pexels.com/photos/5383808/pexels-photo-5383808.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="">
+                <p class="text-white font-bold text-xl md:text-2xl w-[240px] ">Convenient and Member-Friendly Services
+                </p>
+
+                <p class="text-gray-500 font-bold text-lg md:text-xl w-[300px]">Locker rooms with showers, sauna/steam
+                    rooms, juice bar, childcare, flexible membership plans, 24/7 access, and a member app.</p>
+            </div>
+
+            <div class="w-46 flex flex-col items-center mb-12">
+                <img class="h-[100px] w-[150px] rounded-lg"
+                    src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    alt="">
+                <p class="text-white font-bold text-xl md:text-2xl w-[240px] ">Community and Safety Focus</p>
+                <p class="text-gray-500 font-bold text-lg md:text-xl w-[300px]">Emphasis on cleanliness and safety,
+                    sports facilities, and regular community events to foster a supportive fitness environment.</p>
+            </div>
+
+        </div>
+
+        <!-- member section ends here -->
+
+        <!-- athelete section -->
+
+        <div class="h-auto w-full flex flex-wrap flex-col items-center text-center p-10 justify-evenly">
+
+            <div class="w-full h-auto flex flex-wrap flex-col items-center text-center">
+                <p class="text-indigo-800 font-bold text-2xl md:text-4xl text-center">Elite Athletes Produced by Our Gym
+                </p>
+                <div class="w-36 md:w-[300px]  h-1 border-b-4 border-yellow-600 mt-2 rounded-2xl md:mt-4 mb-12"></div>
+            </div>
+
+            <div class="w-full flex flex-wrap justify-around">
+                <div class="w-46 flex flex-col items-center mb-12">
+                    <img class="h-[150px] w-[150px] rounded-lg"
+                        src="https://imgs.search.brave.com/lCGxsIMtSYSWH31x8r4m1tGhXQxAAed5UR1EYHjF0gY/rs:fit:500:0:0:0/g:ce/aHR0cDovL21haGl2/bG9ncy5pbi93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMS8wNy9z/YWtldC1nb2toYWxl/LXdvcmtvdXQuanBn"
+                        alt="">
+                    <p class="text-white font-bold text-xl md:text-2xl w-[240px] ">Saket Gokhale</p>
+
+                    <p class="text-gray-500 font-bold text-lg md:text-xl w-[300px]">From humble beginnings to national
+                        acclaim, Saket Gokhale has transformed his strength and determination into championship titles.
+                        His journey epitomizes the power of dedication and the excellence our gym cultivates.</p>
+                </div>
+
+                <div class="w-46 flex flex-col items-center mb-12 border border-gray-200 rounded box-border">
+                    <img class="h-[150px] w-[150px] rounded-lg"
+                        src="https://imgs.search.brave.com/qh6K5UvNQT0O9vI8tVHa4BRdrAx_gGnYhlSFeTrmu9I/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/c2hvcGlmeS5jb20v/cy9maWxlcy8xLzEz/NjcvNTIwNy9wcm9k/dWN0cy9EU0MwNjI5/NV8xXzM4NDB4Lmpw/Zz92PTE2NTUzODE0/ODU"
+                        alt="">
+                    <p class="text-white font-bold text-xl md:text-2xl w-[240px] ">David Laid</p>
+
+                    <p class="text-gray-500 font-bold text-lg md:text-xl w-[300px]">David Laid's transformation and
+                        dedication to fitness have made him a global icon, inspiring countless individuals to pursue
+                        their strength and aesthetic goals.</p>
+                </div>
+
+                <div class="w-46 flex flex-col items-center mb-12">
+                    <img class="h-[150px] w-[150px] rounded-lg"
+                        src="https://imgs.search.brave.com/T7_H1tD7nMan_pXHanibgJSo0_HBccXaRHLqJCGl8os/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bG93a2lja21tYS5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjMvMDkvQ2hyaXMt/QnVtc3RlYWQtMy04/MTl4MTAyNC5qcGc"
+                        alt="">
+                    <p class="text-white font-bold text-xl md:text-2xl w-[240px] ">Chris Bumstead</p>
+
+                    <p class="text-gray-500 font-bold text-lg md:text-xl w-[300px]">Chris Bumstead’s unparalleled
+                        success in Classic Physique competitions exemplifies the pinnacle of bodybuilding excellence,
+                        inspiring many with his dedication and outstanding physique.</p>
+                </div>
+                <!-- athelete section ends here -->
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer starts here -->
+    <footer
+        class="w-full px-4 bg-gray-900 text-white pt-8 flex flex-row md:flex-col flex-wrap justify-between md:px-12 h-[350px]">
+
+        <div>
+            <img class="w-20 h-16 rounded-full"
+                src="https://images.pexels.com/photos/4397833/pexels-photo-4397833.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="">
+            <p class="my-4">Email us at: </p>
+            <p class="my-1">singhtamannaa21@gmail.com</p>
+        </div>
+
+        <div>
+            <h2 class="font-bold text-xl mt-4">QuantumFit</h2>
+            <div class="w-32 md:w-[150px] border-b-2 border-yellow-600 rounded-2xl my-2"></div>
+            <div>
+                <p>About Us</p>
+                <p>FAQ's</p>
+                <p>Privacy Policy</p>
+            </div> 
+        </div>
+
+        <div >
+            <h2 class="font-bold text-xl mt-4">Subscriptions</h2>
+            <div class="w-32 md:w-[150px] border-b-2 border-yellow-600 rounded-2xl my-2"></div>
+            <div>
+                <p>Monthly</p>
+                <p>3 Months</p>
+                <p>6 Months</p>
+                <p>10 Months</p>
+                <p>Annually</p>
+            </div> 
+        </div>
+
+        <div>
+            <h2 class="font-bold text-xl mt-4">Services</h2>
+            <div class="w-32 md:w-[150px] border-b-2 border-yellow-600 rounded-2xl my-2"></div>
+            <div>
+                <p>Diet Plan</p>
+                <p>Cleanliness</p>
+                <p>24/7 Access</p>
+                <p>Community Events</p>
+            </div> 
+        </div>
+
+       
+
+
+    </footer>
+ <h4 class="bg-gray-900 text-center text-white py-4">Tamanna Singh © 2024 QuantumFit</h4>
+
+
+
+
+
+
+</body>
+
+</html>
