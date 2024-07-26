@@ -18,7 +18,7 @@ Welcome to the **QuantumFit**! This fully **responsive** website is built using 
 
 <br>
 
-*Mobile view with responsive elements.*
+*Mobile view with responsive elements.*<br>
 ![Screenshot 2024-07-26 165454](https://github.com/user-attachments/assets/05f9566b-6891-4458-b9b3-9f4f1caae99b)
 
 <br>
