@@ -14,12 +14,12 @@ Welcome to the **QuantumFit**! This fully **responsive** website is built using 
   
   ## 📸 Screenshots
 *Desktop view showcasing the full-width layout.*
-<img src="![Screenshot 2024-07-26 165420](https://github.com/user-attachments/assets/b05e1061-ea62-46c3-b0ac-ddb13e603355)" alt="image1" height="400px"/>
+![Screenshot 2024-07-26 165420](https://github.com/user-attachments/assets/b05e1061-ea62-46c3-b0ac-ddb13e603355)
 
 <br>
 
 *Mobile view with responsive elements.*
-<img src="![Screenshot 2024-07-26 165454](https://github.com/user-attachments/assets/05f9566b-6891-4458-b9b3-9f4f1caae99b)" alt="image2" height="500px"/>
+![Screenshot 2024-07-26 165454](https://github.com/user-attachments/assets/05f9566b-6891-4458-b9b3-9f4f1caae99b)
 
 <br>
 
